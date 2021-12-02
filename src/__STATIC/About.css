@@ -1,0 +1,62 @@
+.box-about{
+    background-color: white;
+    margin: 4%;
+    height: auto;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+}
+
+.about-heading-box{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.about-heading-box > div {
+    width: 40%;
+    text-align: center;
+    color: #0F3E57;
+    letter-spacing: 4px;
+    font-size: 25px;
+    border-bottom: solid #0F3E57 2px;
+    margin-bottom: 50px ;
+}
+
+.photo-of-me{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.photo-of-me > div{
+    width: 100%;
+    text-align: center;
+}
+
+.photo-of-me > div > img{
+    width: 170px;
+    height: 170px;
+    border-radius: 60%;
+    transition: all .6s ease-in-out;
+}
+
+.photo-of-me > div > img:hover{
+    transform: scale(1.2);
+    /* border: solid ; */
+    padding: 10px;
+    box-shadow: inset 2px 4px 5px #0F3E57;
+}
+
+.about-text{
+    display: flex;
+    justify-content: center;
+   
+}
+.about-text > div{
+    padding: 20px 10px;
+    letter-spacing: 2px;
+    line-height: 27px;
+    text-align: center;
+    width: 80%;
+}

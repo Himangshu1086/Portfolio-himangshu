@@ -1,0 +1,37 @@
+.footer-box{
+    margin-top: 10% ;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.quick-link{
+
+    display: flex;
+    justify-content: center;
+}
+.quick-link>span{
+    padding: 15px;
+    font-size: 15px;
+
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    color: rgb(43, 176, 199);
+    line-height: 24px;
+    letter-spacing: 2px;
+    flex-direction: column;
+    margin-top: 5%;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 7px;
+}
+
+a{
+    color:lightblue;
+    text-decoration:none;
+}
