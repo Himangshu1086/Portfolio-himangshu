@@ -33,8 +33,8 @@ function About() {
             </div>
             <div>
                 <div style={{display:"flex", justifyContent:"center"}}>
-                    <strong className="tags-1">Web Developement</strong>
-                    <strong className="tags-2">Blockchain Dapp Developer</strong>
+                    <strong className="tags-1">Web Developer</strong>
+                    <strong className="tags-2">Blockchain DApp Developer</strong>
                     <strong className="tags-3">UI/UX Designer</strong>   
                 </div>
             </div>

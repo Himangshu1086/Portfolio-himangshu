@@ -53,7 +53,7 @@ const navigatorCross =()=>{
         <br/>
       </div>
     </div>
-    <div id="chat-icon" style={{position:"sticky",zIndex:"1" ,width:"70px" , height:"58px",borderRadius:"50%",background:"lightblue",top:"90vh" ,left:"93%" , justifyContent:"center"}}>
+    <div id="chat-icon" className='chat-btn'>
       <a href='https://wa.me/8638281845'>
         <img style={{margin:"5.5px"}} src={chat}/>
       </a>
