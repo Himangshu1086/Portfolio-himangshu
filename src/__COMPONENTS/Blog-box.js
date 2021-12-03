@@ -1,5 +1,6 @@
 import React , {useState , useEffect} from 'react'
 import '../__STATIC/Blog-Box.css'
+import '../__STATIC/RESPONSIVE/BlogBox.css'
 import eg from '../image/exam.jpg'
 import s1 from '../image/s1.jpg'
 import s2 from '../image/s2.jpg'
@@ -23,7 +24,7 @@ function BlogBox() {
             $('#imag-slide').attr("src" ,arr[i]);
             i++;
         } 
-        , 5000);
+        , 3000);
    
     
     return (

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../__STATIC/About.css'
+import '../__STATIC/RESPONSIVE/About.css'
 import me from '../image/me.jpg'
 function About() {
     return (

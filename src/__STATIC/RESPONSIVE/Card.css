@@ -1,0 +1,102 @@
+@media screen and (max-width:700px) {
+
+    
+    .image-of-project{
+        background-color: black;
+        height: 200px;
+    
+    }
+    
+    .image-of-project >img {	
+        width: 600px;
+        width: 100%;
+        height: 200px;
+        opacity: 0.5;
+    }
+    
+    .project-title{
+        position: absolute;
+        width: 70%;
+        top:38%;
+        left: 10% ;
+    }
+    
+    .project-title > h1{
+        color: white;
+        font-size: 17px;
+        letter-spacing: 3px;
+        
+    }
+    
+    .tags-tech{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding:10px;
+    
+    }
+    .tags-tech > strong{
+        padding:7px;
+        color: white;
+        box-shadow: rgb(6, 27, 51) 0px 20px 30px -10px; 
+        margin: 0px 10px;
+        background: rgb(0, 0, 0);
+        border-radius: 5px;
+        font-size: 10px;
+    }
+    
+    
+    
+    
+    
+    .detail-btn{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        bottom: 0%;
+        margin: 10px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        transition: all 1s ease;
+    }
+    .detail-btn > p{
+        font-size: 11px;
+        text-align: left;
+        padding: 0px 15px;
+        line-height: 14px;
+    }
+    
+    .detail-btn > div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        padding: 0px 10px;
+
+    }
+    .detail-btn>div>button{
+        padding: 10px;
+        margin: 7px;
+        border-radius: 3px;
+        /* background-color: rgb(255, 255, 255); */
+        /* border: black solid 2px; */
+        box-shadow: rgb(6, 27, 51) -10px 12px 19px -10px; 
+        color: rgb(0, 0, 0);
+        
+    }
+    
+    
+    
+    /* animation */
+    
+    .container:hover{
+        transform: scale(1.3);
+        /* transform: rotateX(90deg); */
+        opacity: 0;
+    }
+    
+    
+    
+    
+
+
+}

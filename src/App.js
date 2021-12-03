@@ -1,4 +1,5 @@
-import './App.css';
+import './App.css'; 
+import './__STATIC/RESPONSIVE/App.css'
 import {useState} from 'react'
 import img from './image/back.png'
 import logo from './image/Logo .png'
@@ -20,7 +21,7 @@ import Footer from './__COMPONENTS/Footer';
 function App() {
 
 const navigatorOpen=()=>{
-  $('#open-nav').css({display:"block",width:"20%"  })
+  $('#open-nav').css({display:"block",width:"40%"  })
   $('#nav-item').css({display:"block"})
 }
 const navigatorCross =()=>{
@@ -34,7 +35,7 @@ const navigatorCross =()=>{
     <div>
     <div className="image-back">
     <div id ='open-nav' className="nav-side-bar">
-      <img onClick ={navigatorCross} src={cross} style={{ position:"absolute",width:"80px" ,height:"60px" , right:"5%" , top:"40px"}} />
+      <img onClick ={navigatorCross} src={cross} className='cross-icon'/>
       <div id='nav-item'>
         <h1>Home</h1>
         <h1>Projects</h1>
@@ -43,12 +44,12 @@ const navigatorCross =()=>{
       </div>
       <div style={{bottom:"45%",left:"8%", position:"absolute",borderBottom:" #0F3E57 solid 2px", width:"70%", height:"20px"}}></div>
     </div>
-    <img onClick ={navigatorOpen} src={hum} style={{ position:"absolute",width:"80px" ,height:"60px" , left:"0px" , top:"65px"}} />
-      <img  src={logo} style={{ position:"absolute",width:"240px" ,height:"140px" , left:"70px"  , top:"35px"}} />
-      <img  src={img} alt="background" style={{width:"100%" , height:"110vh"}}/>
-      <div style={{position:"absolute" ,color: "white"  , top:"30%",left:"10%"}}>
-        <h1 style={{fontSize:"70px",letterSpacing:"3px" }} >Hi , I'm Himangshu</h1>
-        <p class="line-1 anim-typewriter" style={{fontSize:"50px" , marginTop:"80px"}}>I build things for the Web.</p>
+    <img onClick ={navigatorOpen} src={hum} className='humb' />
+      <img  src={logo} className='logo-cover'/>
+      <img  src={img} alt="background" className='cover-background-image'/>
+      <div className='cover-heading'>
+        <h1 >Hi , I'm Himangshu</h1>
+        <p class="line-1 anim-typewriter" >I build things for the Web.</p>
         <br/>
       </div>
     </div>
@@ -70,7 +71,7 @@ const navigatorCross =()=>{
         </div>
     </div>
     <div className='about-me'>
-        <About/>
+        <div><About/></div>
     </div>
     <div  className="box-for-social">
       <div>

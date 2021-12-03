@@ -31,6 +31,43 @@ body{
   }
 }
 
+.cover-background-image{
+  width:100%;
+  height:110vh;
+}
+
+.cover-heading{
+  position:absolute;
+  color:white;
+  top:30%;
+  left:10%;
+}
+
+.cover-heading>h1{
+  font-size:70px;
+  letter-spacing:3px; 
+}
+.cover-heading>p {
+  font-size:50px;
+  margin-top:80px;
+}
+
+.humb{
+  position:absolute;
+  width:80px;
+  height:60px;
+  left:0px;
+  top:65px;
+}
+  
+.logo-cover{
+  position:absolute;
+  width:240px;
+  height:140px;
+  left:70px;
+      top:35px;
+}
+
 .tags-1{
   padding:10px; 
   font-size:30px; 
@@ -127,6 +164,14 @@ body{
   transition: all 1s ease;
   
 }
+.cross-icon{
+
+  position:absolute;
+  width:80px;
+  height:60px;
+  right:5%;
+  top:40px;
+}
 
 #nav-item{
 display: none;
@@ -138,6 +183,7 @@ left:8%;
   transition: all .6s ease-in-out;
   padding-bottom: 15px ;
   width: 0px;
+  border: rgb(151, 202, 214) solid 2px;
 }
 #nav-item > h1:hover{
   border-bottom: #0F3E57 solid 2px;
@@ -148,14 +194,17 @@ left:8%;
 
 .about-me{
   background-color: #7bb1ca;
-  padding-top: 100px;
-  height: auto;
+  padding-top: 120px;
+  left: 0%;
+  top: 0%;
+  margin: -1px;
   border: solid #7bb1ca 1px;
 
 }
 
 .box-for-blog{
   background-color: #7bb1ca;
+  margin: -1px;
 }
 
 .contact-form{
@@ -167,7 +216,7 @@ left:8%;
 
 .footer{
   background-color: #7bb1ca;
-  height: auto;
+ margin: -2px;
   border: solid #7bb1ca;
 }
 

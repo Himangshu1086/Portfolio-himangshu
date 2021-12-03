@@ -1,5 +1,6 @@
 import React from 'react'
 import '../__STATIC/Footer.css'
+import '../__STATIC/RESPONSIVE/Footer.css'
 
 function Footer() {
     return (

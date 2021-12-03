@@ -1,0 +1,55 @@
+@media screen and (max-width:700px) {
+
+    .blog-container{
+        margin: -2px;
+        }
+    
+    .title-blog{
+        
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin: 20%;
+    }
+    .title-blog>h1{
+        margin: 2px;
+    }
+    .blog-slideshow{
+        height: 300px;
+        width: 90%;
+        margin: 20px;
+    }
+    
+   
+    
+    .image-box-slideshow > img{
+        height: 300px;
+    }
+    
+    
+    .text-slide{
+        top:70%;
+        left:0%;
+        width: 96%;
+    
+    }
+    
+    .text-slide > h1{
+        left: 5%;
+        bottom: 0%;
+        line-height: 20px;
+        letter-spacing: 2px;
+        font-size: 15px;
+    }
+    .btn-slide{
+        left: 38%;
+        top: 77%;
+    }
+    
+    .btn-slide>button{
+        padding: 12px;
+        font-size: 15px; 
+    }
+
+
+}

@@ -1,5 +1,5 @@
 .form-box{
-    border: solid;
+    /* border: solid; */
     height: 600px;
     display: flex;
     justify-content: center;
@@ -14,6 +14,13 @@
  width:40%; 
  margin: 60px 10px;
  position: relative;
+}
+.contact-form-photo > div>h1{
+    color:white; 
+    position:absolute;
+    top:24%;
+    left:-10%; 
+    font-size:50px;
 }
 
 .contact-form-photo>img{

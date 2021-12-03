@@ -1,6 +1,7 @@
 import React from 'react'
 import eg from '../image/exam.jpg'
 import '../__STATIC/Card.css'
+import '../__STATIC/RESPONSIVE/Card.css'
 
 function Card() {
     return (
@@ -10,7 +11,10 @@ function Card() {
                         <img src={eg} alt='project image'/>
                     </div>
                     <div className='project-title'>
-                        <h1>Heading Title</h1>
+                        <h1>Ethereum Decentralised Voting Application</h1>
+                    </div>
+                    <div style={{textAlign:"center" , marginTop:"10px" , color:"black"}}>
+                        <span>technology used ⤵️</span>
                     </div>
                     <div className='tags-tech'>
                         <strong>Reactjs</strong>
