@@ -2,6 +2,8 @@
  
     .form-box{
         height: auto;
+        display: flex;
+        flex-wrap: wrap;
       }
       
     .contact-form-photo{

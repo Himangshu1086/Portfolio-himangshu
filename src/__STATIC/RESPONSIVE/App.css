@@ -37,6 +37,7 @@
 .cover-heading{
     position:absolute;
     color:white;
+    margin-bottom: 10px;
     top:42%;
     left:5%;
   }
@@ -46,6 +47,9 @@
 
   }
 
+  .discover{
+    margin-top: 20px;
+  }
   .cover-heading>p {
       font-size: 17px;
       margin-top:20px;

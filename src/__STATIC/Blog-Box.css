@@ -100,10 +100,11 @@
     transform: scale(0.9);
 }
 
-.btn-slide{
-    transition: all .7s ease-in-out;
+.btn-slide>button{
+    transition: all .6s ease-in-out;
 }
 
-.btn-slide:hover{
+.btn-slide>button:hover{
+    background: black;
     transform: scale(0.9);
 }

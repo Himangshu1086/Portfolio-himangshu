@@ -50,6 +50,8 @@ const navigatorCross =()=>{
       <div className='cover-heading'>
         <h1 >Hi , I'm Himangshu</h1>
         <p class="line-1 anim-typewriter" >I build things for the Web.</p>
+        <h1 className='discover'>Discover my amazing Workspace !</h1>
+        <p style={{borderBottom:"solid white 2px", width:"25%"}}></p>
         <br/>
       </div>
     </div>

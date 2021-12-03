@@ -14,7 +14,7 @@ function Card() {
                         <h1>Ethereum Decentralised Voting Application</h1>
                     </div>
                     <div style={{textAlign:"center" , marginTop:"10px" , color:"black"}}>
-                        <span>technology used ⤵️</span>
+                        <span>technology used <span style={{color:"black"}}>⤵️</span></span>
                     </div>
                     <div className='tags-tech'>
                         <strong>Reactjs</strong>

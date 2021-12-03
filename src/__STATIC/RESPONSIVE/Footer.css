@@ -16,6 +16,11 @@
         margin-top: 5%;
         padding: 20px;
         border-radius: 5px;
+        background-color: transparent;
+        color: black;
+    }
+    a{
+        color: rgb(17, 74, 92);
     }
     .copyright>span{
         font-size: 10px;
