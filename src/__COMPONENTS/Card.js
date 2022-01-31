@@ -1,42 +1,42 @@
 import React from 'react'
-import eg from '../image/exam.jpg'
 import '../__STATIC/Card.css'
 import '../__STATIC/RESPONSIVE/Card.css'
-
-function Card() {
+import {Link} from 'react-router-dom'
+// title , image , tech1 , tech2 , tech3 , tech4 , code_url , site_url)
+function Card(props)  {
     return (
+        <>
         <div style={{position:"relative",margin:" 20px" ,boxShadow: "rgb(38, 57, 77) 0px 20px 30px -10px",borderRadius:"5px", padding:"20px",background:"white"}}>
-            <div className='container'>
+                <div className='container'>
                     <div className='image-of-project'>
-                        <img src={eg} alt='project image'/>
+                        <img src={props.card_img} alt='project image'/>
                     </div>
                     <div className='project-title'>
-                        <h1>Ethereum Decentralised Voting Application</h1>
+                        <h1>{props.title}</h1>
                     </div>
-                    <div style={{textAlign:"center" , marginTop:"10px" , color:"black"}}>
+                </div>
+                
+                    <div className='detail-btn'>
+                        <p>{props.explaination}</p>
+                        <div style={{textAlign:"center" , marginTop:"10px" , color:"black"}}>
                         <span>technology used <span style={{color:"black"}}>⤵️</span></span>
                     </div>
                     <div className='tags-tech'>
-                        <strong>Reactjs</strong>
-                        <strong>Reactjs</strong>
-                        <strong>Reactjs</strong>
-                        <strong>Reactjs</strong>
+                        <strong>{props.tech[0]}</strong>
+                        <strong>{props.tech[1]}</strong>
+                        <strong>{props.tech[2]}</strong>
+                        <strong>{props.tech[3]}</strong>
                     </div>
+                    </div>
+                    
+            <div className='url-btn'>
+                <div>
+                <a href ={props.url}><button>code </button></a>
+                <a href ={props.url}><button>deployed website</button></a>
                 </div>
-                    <div className='detail-btn'>
-                        <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec vulputate magna, sed sodales lacus. Mauris varius blandit ante, et blandit elit <br/>
-                        tincidunt nec. Nunc sed nisl vel nisl finibus fringilla et id ante. Quisque tortor ipsum, vestibulum at ullamcorper ut, laoreet et mauris. <br/>
-                        Vivamus in scelerisque metus. Donec hendrerit eleifend est accumsan hendrerit. Fusce bibendum mauris lorem, quis molestie metus malesuada id.<br/>
-                        Pellentesque elementum eros et vestibulum efficitur. Morbi eu mauris sed nisl porta varius. In ut dolor elit. Donec ornare varius tincidunt. <br/>
-                        Integer condimentum gravida elit, nec fringilla dui maximus id. Donec facilisis massa at augue maximus, dapibus vestibulum tortor mollis. 
-                        </p>
-                        <div>
-                        <button>CODE</button>
-                        <button>DEPLOYED WEBSITE</button>
-                        </div>
-                    </div>
             </div>
+            </div>
+        </>
     )
 }
 

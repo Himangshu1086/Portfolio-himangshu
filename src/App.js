@@ -1,7 +1,7 @@
 import './App.css'; 
 import './__STATIC/RESPONSIVE/App.css'
 import {useState} from 'react'
-import img from './image/back.png'
+import img from './image/back.jpg'
 import logo from './image/Logo .png'
 import cross from './image/Cross.png'
 import hum from './image/Hamburger.png'
@@ -14,6 +14,7 @@ import Insta from './image/instagram.png'
 import gmail from './image/gmail.png'
 import github from './image/github.png'
 import BlogBox from './__COMPONENTS/Blog-box'
+import eg from './image/exam.jpg'
 
 import $ from 'jquery'
 import Contact from './__COMPONENTS/Contact';
@@ -29,13 +30,19 @@ const navigatorCross =()=>{
   $('#open-nav').css({width:'0%'})
 }
 
-
-  return (
-
+const tech = [ 'ReactJs', 'Solidity' , 'Web3js','truffle']
+const url ='https://github.com/Himangshu1086/Ethereum-Decentralized-Voting-App'
+const post = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec vulputate magna, sed sodales lacus. Mauris varius blandit ante, et blandit elit
+tincidunt nec. Nunc sed nisl vel nisl finibus fringilla et id ante. Quisque tortor ipsum, vestibulum at ullamcorper ut, laoreet et mauris.
+Vivamus in scelerisque metus. Donec hendrerit eleifend est accumsan hendrerit. Fusce bibendum mauris lorem, quis molestie metus malesuada id.
+Pellentesque elementum eros et vestibulum efficitur. Morbi eu mauris sed nisl porta varius. In ut dolor elit. Donec ornare varius tincidunt.
+Integer condimentum gravida elit, nec fringilla dui maximus id. Donec facilisis massa at augue maximus, dapibus vestibulum tortor mollis.`
+ 
+return (
     <div>
     <div className="image-back">
     <div id ='open-nav' className="nav-side-bar">
-      <img onClick ={navigatorCross} src={cross} className='cross-icon'/>
+      <img onClick ={navigatorCross} src={cross} className="cross-icon"/>
       <div id='nav-item'>
         <h1>Home</h1>
         <h1>Projects</h1>
@@ -67,9 +74,51 @@ const navigatorCross =()=>{
       </div>
       </div>
         <div className='box-for-project'>
+          <Card 
+          title ='Ethereum Decentralised Voting Application' 
+          card_img = {eg}
+          tech = {tech}
+          explaination = {post}
+          url = {url} 
+          />
+          <Card 
+          title ='Ethereum Decentralised Voting Application' 
+          card_img = {eg}
+          tech = {tech}
+          explaination = {post}
+          url = {url} 
+          />
+          <Card 
+          title ='Ethereum Decentralised Voting Application' 
+          card_img = {eg}
+          tech = {tech}
+          explaination = {post}
+          url = {url} 
+          />
+          <Card 
+          title ='Ethereum Decentralised Voting Application' 
+          card_img = {eg}
+          tech = {tech}
+          explaination = {post}
+          url = {url} 
+          />
+          <Card 
+          title ='Ethereum Decentralised Voting Application' 
+          card_img = {eg}
+          tech = {tech}
+          explaination = {post}
+          url = {url} 
+          />
+          <Card 
+          title ='Ethereum Decentralised Voting Application' 
+          card_img = {eg}
+          tech = {tech}
+          explaination = {post}
+          url = {url} 
+          />
+          {/* <Card/>
           <Card/><Card/>
-          <Card/><Card/>
-          <Card/><Card/>
+          <Card/><Card/> */}
         </div>
     </div>
     <div className='about-me'>
