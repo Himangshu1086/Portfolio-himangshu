@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Portfolio-himangshu/static/css/main.89e22e6b.chunk.css",
+    "main.js": "/Portfolio-himangshu/static/js/main.b68ce7e9.chunk.js",
+    "main.js.map": "/Portfolio-himangshu/static/js/main.b68ce7e9.chunk.js.map",
+    "runtime-main.js": "/Portfolio-himangshu/static/js/runtime-main.21ab1f45.js",
+    "runtime-main.js.map": "/Portfolio-himangshu/static/js/runtime-main.21ab1f45.js.map",
+    "static/js/2.d16a9670.chunk.js": "/Portfolio-himangshu/static/js/2.d16a9670.chunk.js",
+    "static/js/2.d16a9670.chunk.js.map": "/Portfolio-himangshu/static/js/2.d16a9670.chunk.js.map",
+    "index.html": "/Portfolio-himangshu/index.html",
+    "static/css/main.89e22e6b.chunk.css.map": "/Portfolio-himangshu/static/css/main.89e22e6b.chunk.css.map",
+    "static/js/2.d16a9670.chunk.js.LICENSE.txt": "/Portfolio-himangshu/static/js/2.d16a9670.chunk.js.LICENSE.txt",
+    "static/media/Ask.28be9869.png": "/Portfolio-himangshu/static/media/Ask.28be9869.png",
+    "static/media/Cross.a77f31b4.png": "/Portfolio-himangshu/static/media/Cross.a77f31b4.png",
+    "static/media/Hamburger.e90049e4.png": "/Portfolio-himangshu/static/media/Hamburger.e90049e4.png",
+    "static/media/Logo .d18848a4.png": "/Portfolio-himangshu/static/media/Logo .d18848a4.png",
+    "static/media/back.21d6c625.jpg": "/Portfolio-himangshu/static/media/back.21d6c625.jpg",
+    "static/media/exam.6b42c038.jpg": "/Portfolio-himangshu/static/media/exam.6b42c038.jpg",
+    "static/media/me.4b534818.jpg": "/Portfolio-himangshu/static/media/me.4b534818.jpg",
+    "static/media/s1.7bf55f5f.jpg": "/Portfolio-himangshu/static/media/s1.7bf55f5f.jpg",
+    "static/media/s2.d52b9529.jpg": "/Portfolio-himangshu/static/media/s2.d52b9529.jpg",
+    "static/media/s3.7b7511a9.jpg": "/Portfolio-himangshu/static/media/s3.7b7511a9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.21ab1f45.js",
+    "static/js/2.d16a9670.chunk.js",
+    "static/css/main.89e22e6b.chunk.css",
+    "static/js/main.b68ce7e9.chunk.js"
+  ]
+}
